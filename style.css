@@ -1,0 +1,176 @@
+
+  .slider {
+    width: 100%;
+    max-width: 1920px;
+    height: 1200px;
+    position: relative;
+    overflow: hidden;  
+    border-radius: 15px;
+    
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 1920px;
+    height: 1200px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+   .btn:active {
+    transform: scale(1.1);
+  }
+  
+  .btn-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next {
+    top: 45%;
+    right: 2%;
+  } 
+
+  .box{
+        max-width: 1920px;
+        margin: auto;
+        position: relative;
+    }
+
+
+.header-div{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 900px;
+   right: 16px;
+   
+}
+
+h1{
+    position: absolute;
+    
+}
+
+.Roca{
+    width: 113px;
+    height:56px;
+    color: #1A1A1A;
+    font-size:40px;
+    font-family:font-popins;
+    margin-right: 1240px;
+    
+}
+.Resume{
+    width: 119px;
+    font-size: 13px;
+    color: #B3B3B3;
+    font-family:font-Montserrat;
+  
+}
+.inside-div{
+  bottom:500px;
+
+}
+
+h1{
+    width: 170px;
+    height: 221px;
+    font-size: 158px;
+    font-family: font-popins;
+    color: #1C1C1C;
+     margin-right:118px; 
+    margin-top: 20px;
+
+}
+.aboutme{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    color: #373737;
+    font-size: 43px;
+    font-family: font-popins;
+     margin-right: 81px; 
+    margin-top: 90px;
+}
+ .info-me{
+    margin-right: 308px;
+    margin-left: 1029px;
+    width: 582px;
+    position: absolute;
+    bottom: 340px;
+    right: 16px;
+} 
+
+.hi{
+    font-size: 49px;
+    font-family:font-Glaciallnd ;
+    color: #212121;
+    margin-bottom: 0px;
+  
+}
+.name{
+    color: #212121;
+    font-size: 71px;
+    font-family: font-Glaciallnd-bold;
+    margin-bottom: 0px;
+}
+.profession{
+    color: #212121;
+    font-size: 23px;
+    font-family: font-Glaciallnd;
+  
+
+}
+.icon{
+    width: 20px;
+}
+
+.clienttext{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.clients{
+    width: 274px;
+    color: #212121;
+    font-size: 24px;
+    font-family: font-Montserrat;
+    margin-top: 181px;
+    margin-left: 1462px;
+    margin-right: 184px;
+    border-bottom-style: solid  ;
+    border-bottom-color: red;
+    border-bottom-width:1ex;
+   
+}
+
+
+.clients:nth-letter(5){
+    color:red;
+}
+
+
+
+
