@@ -1,8 +1,8 @@
 
   .slider {
-    width: 100%;
-    max-width: 1920px;
-    height: 1200px;
+    width: 100%; 
+    max-width: 1920px; 
+     height: 1200px;  
     position: relative;
     overflow: hidden;  
     border-radius: 15px;
@@ -10,8 +10,8 @@
   }
   
   .slide {
-    width: 100%;
-    max-width: 1920px;
+     width: 100%;
+    max-width: 1920px;  
     height: 1200px;
     position: absolute;
     transition: all 0.5s;
@@ -52,7 +52,8 @@
 
   .box{
         max-width: 1920px;
-        margin: auto;
+        width: 100%;
+    margin: 0 auto;
         position: relative;
     }
 
@@ -64,14 +65,12 @@
     position: absolute;
     bottom: 900px;
    right: 16px;
-   margin: 0  auto;
-   
 }
 
-h1{
+/* h1{
     position: absolute;
     
-}
+} */
 
 .Roca{
     width: 113px;
@@ -79,7 +78,7 @@ h1{
     color: #1A1A1A;
     font-size:40px;
     font-family:font-popins;
-    margin-right: 1240px;
+     margin-right: 1240px; 
     
 }
 .Resume{
@@ -102,6 +101,7 @@ h1{
     color: #1C1C1C;
      margin-right:118px; 
     margin-top: 20px;
+    position: absolute;
 
 }
 .aboutme{
@@ -193,7 +193,8 @@ h1{
 justify-content: space-between;
 align-items: center;
   max-width: 1920px;
-margin:auto; 
+margin: 0 auto; 
+box-sizing: border-box;
 }
 
 .firstdiv{
@@ -296,7 +297,7 @@ object-fit: contain;
   height: 100%;
 }
 
-#progress2 {
+ #progress2 {
   background:#F0F0F0 ;
   height: 9px;
   width: 256px;
@@ -354,4 +355,139 @@ object-fit: contain;
   margin-right: 3px;
   margin-top: 78px;
 }
+
+.footer-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 210px;
+  background-color: #131A36;
+  margin: auto;
+
+}
+.footer-tel{
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+
+}
+ .phones{
+  width: 29px;
+  height: 29px;
+   background-color: #FFFFFF;
+   border-radius: 100%;
+   margin-left: 534px;
+   position: absolute;
+   padding: 30px;
+   
+} 
+
+.location{
+  width: 24px;
+  height: 31px;
+   /* background-color: #FFFFFF; */
+   border-radius: 50%;
+   position: absolute;
+   padding: 30px;
+   color: #FFFFFF; 
+
+}
+.email{
+  width: 30px;
+  height: 23px;
+   /* background-color: #FFFFFF; */
+   border-radius: 50%;
+   position: absolute;
+   padding: 30px;
+}
+.first{
+  width: 29px;
+  height: 29px;
+   color: #FFFFFF; 
+   position: absolute;
+   padding: 30px;
+} 
+.second{
+  position: relative;
+  width: 90px;
+}
+.phonenumber{
+  width: 176px;
+  font-size: 25px;
+  font-family:font-Glaciallnd-bold ;
+  color: #FFFFFF;
+  margin-left: 29px;
+}
+.location-p{
+  width: 170px;
+  font-size: 14px;
+  font-family:Muli ;
+  color: #DFDFDF;
+  margin-left: 30px;
+}
+
+.useradress{
+  width: 150px;
+  font-size: 25px;
+  font-family:font-Glaciallnd-bold ;
+  color: #FFFFFF;
+  margin-left: 29px;
+}
+.emailadress{
+  width: 163px;
+  font-size: 25px;
+  font-family:font-Glaciallnd-bold ;
+  color: #FFFFFF;
+  margin-left: 29px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-parent{
+    display: block;
+    background-color: #131A36;
+    max-width: 500px;
+    height: 100%;
+    margin-left: 200px;
+  }
+
+  .footer-tel{
+    width: 100px;
+  }
+  .square{
+    display: block;
+  }
+  .parentdiv{
+    display: block;
+  
+  }
+  .me{
+    margin-left: 250px ;
+  }
+  .bar{
+     margin-left: 200px; 
+  
+  }
+
+ .header-div{
+  display: block;
+
+
+ 
+ }
+
+  .Roca{
+margin-right: 700px;
+ 
+ } 
+a{
+  display: block;
+}
+
+ 
+}
+
+
+
+
 

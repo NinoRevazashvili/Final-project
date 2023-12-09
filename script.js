@@ -37,3 +37,22 @@ prevSlide.addEventListener("click", function () {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
 });
+
+
+let elem = document.getElementById("progress");   
+let width = 1;
+let id = setInterval(frame, 100);
+function frame() {
+    if (width >= 40) {
+        clearInterval(id);
+} else {
+    width++; 
+    elem.style.width = width + '%'; 
+}
+}
+
+function change(){
+  // changed to classList.toggle to add/remove a classname
+  // with each click.
+  document.getElementById("square").classList.toggle('grey');
+}
