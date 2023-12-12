@@ -39,6 +39,7 @@ prevSlide.addEventListener("click", function () {
 });
 
 
+
 let elem = document.getElementById("progress");   
 let width = 1;
 let id = setInterval(frame, 100);
@@ -51,8 +52,24 @@ function frame() {
 }
 }
 
-function change(){
-  // changed to classList.toggle to add/remove a classname
-  // with each click.
-  document.getElementById("square").classList.toggle('grey');
+
+
+
+function myFunction() {
+  document.getElementById("squareimg").style.transitionProperty = "background-color";
 }
+function myFunction() {
+  document.getElementById("second").style.transitionProperty = "background-color";
+}
+
+function myFunction() {
+  document.getElementById("individual-section").style.transitionProperty = "background-color";
+}
+
+
+
+
+
+
+
+

@@ -1,4 +1,9 @@
 
+  
+  
+  
+  
+  
   .slider {
     width: 100%; 
     max-width: 1920px; 
@@ -49,28 +54,34 @@
     top: 45%;
     right: 2%;
   } 
+.first-page-box{
+  max-width: 1920px;
 
+  margin: 0 auto; 
+  position: relative;
+}
   .box{
-        max-width: 1920px;
-        width: 100%;
-    margin: 0 auto;
-        position: relative;
+         
+    max-width: 1920px;
+      
+    margin: 0 auto; 
+        /* position: relative; */
     }
 
 
 .header-div{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 900px;
-   right: 16px;
+     bottom: 900px;
+   right: 16px; 
 }
 
-/* h1{
+ h1{
     position: absolute;
     
-} */
+} 
 
 .Roca{
     width: 113px;
@@ -78,7 +89,8 @@
     color: #1A1A1A;
     font-size:40px;
     font-family:font-popins;
-     margin-right: 1240px; 
+      margin-right: 1240px; 
+   
     
 }
 .Resume{
@@ -89,7 +101,7 @@
   
 }
 .inside-div{
-  bottom:500px;
+   bottom:500px; 
 
 }
 
@@ -100,7 +112,7 @@ h1{
     font-family: font-popins;
     color: #1C1C1C;
      margin-right:118px; 
-    margin-top: 20px;
+    margin-top: 20px; 
     position: absolute;
 
 }
@@ -111,16 +123,16 @@ h1{
     color: #373737;
     font-size: 43px;
     font-family: font-popins;
-     margin-right: 81px; 
-    margin-top: 90px;
+      margin-right: 81px; 
+    margin-top: 90px; 
 }
  .info-me{
     margin-right: 308px;
     margin-left: 1029px;
     width: 582px;
     position: absolute;
-    bottom: 340px;
-    right: 16px;
+     bottom: 340px;
+    right: 16px; 
 } 
 
 .hi{
@@ -149,8 +161,8 @@ h1{
 
 .clienttext{
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+      bottom: 8px;
+    right: 16px;  
 }
 
 .clients{
@@ -158,9 +170,9 @@ h1{
     color: #212121;
     font-size: 24px;
     font-family: font-Montserrat;
-    margin-top: 181px;
+     margin-top: 181px;
     margin-left: 1462px;
-    margin-right: 184px;
+    margin-right: 184px; 
     border-bottom-style: solid  ;
     border-bottom-color: red;
     border-bottom-width:1ex;
@@ -174,17 +186,14 @@ h1{
 
 
 
-/* რესპონსივი */
 
-@media  (max-width:780){
+
+/* @media  (max-width:780){
   .Roca-Resume{
    
     display: none;
   }
-}
-
-
-
+} */
 
 
 
@@ -192,9 +201,6 @@ h1{
   display: flex;
 justify-content: space-between;
 align-items: center;
-  max-width: 1920px;
-margin: 0 auto; 
-box-sizing: border-box;
 }
 
 .firstdiv{
@@ -278,16 +284,16 @@ object-fit: contain;
   height: 100%;
 
 }
-#progress1 {
+ #progress1 {
   background:#F0F0F0 ;
   height: 9px;
   width: 256px;
   padding: 3px;
   margin-bottom: 10px;
   margin-right: 300px;
-  margin-left: 70px;
-}
+  margin-left: 70px; 
 
+ }
 
 #progress1:after {
   content: '';
@@ -316,6 +322,7 @@ object-fit: contain;
   height: 100%;
 
 }
+
 #progress3 {
   background:#F0F0F0 ;
   height: 9px;
@@ -334,7 +341,7 @@ object-fit: contain;
   width: 30%;
   height: 100%;
 
-} 
+}  */
 .bar{
   margin-left: 70px;
 }
@@ -355,7 +362,10 @@ object-fit: contain;
   margin-right: 3px;
   margin-top: 78px;
 }
+.squareimg:hover{
+  background-color:#15263E;
 
+}
 .footer-parent{
   display: flex;
   align-items: center;
@@ -375,13 +385,14 @@ object-fit: contain;
  .phones{
   width: 29px;
   height: 29px;
-   background-color: #FFFFFF;
+   /* background-color: #FFFFFF; */
    border-radius: 100%;
    margin-left: 534px;
    position: absolute;
    padding: 30px;
    
 } 
+
 
 .location{
   width: 24px;
@@ -393,6 +404,7 @@ object-fit: contain;
    color: #FFFFFF; 
 
 }
+
 .email{
   width: 30px;
   height: 23px;
@@ -401,6 +413,7 @@ object-fit: contain;
    position: absolute;
    padding: 30px;
 }
+
 .first{
   width: 29px;
   height: 29px;
@@ -408,9 +421,17 @@ object-fit: contain;
    position: absolute;
    padding: 30px;
 } 
+
 .second{
   position: relative;
   width: 90px;
+  border-radius: 100%;
+  
+}
+
+
+.footer-images:hover{
+  background-color: #E93656;
 }
 .phonenumber{
   width: 176px;
@@ -488,6 +509,77 @@ a{
 }
 
 
+/* third page */
+
+.six-sections{
+   
+  display: grid;
+  grid-template-columns: repeat(3, 285px); 
+  gap:10px;
+  justify-content: center;
+
+}
+.individual-section{
+ 
+width: 285px;
+height: 360px; 
+background-color: #FAFAFA;
+
+}
+.individual-section:hover{
+  background-color:#555555;
+}
+.design{
+  padding-top: 133px;
+  padding-bottom: 15px;
+  padding-left: 112px;
+  padding-right: 112px;
+  color: #15263E;
+}
+
+.Graphichs-Design{
+  padding-left: 70px;
+  padding-bottom: 121px;
+  color: #222222;
+  font-size: 22px;
+  font-family:font-Glaciallnd-bold ;
+}
+ 
+@media screen and (max-width: 1120px) {
+  .six-sections{
+    
+   display: grid;
+   grid-template-columns: repeat(2, 260px); 
+ 
+   justify-content: center;
+   margin-left: 200px;
+  
+  } 
+}
+ @media screen and (max-width: 780px) {
+  .six-sections{
+    display: block;
+   margin-left: 250px;
+  
+  }
+
+  .individual-section{
+    width: 400px;
+   height: 360px;
+   gap: 10px;
+ 
+  }
+  .design{
+    padding-top: 180px;
+    padding-bottom: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .Graphichs-Design{
+    padding-left: 120px;
+    padding-bottom: 180px;
+  }
+} 
 
 
 
