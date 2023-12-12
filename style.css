@@ -425,13 +425,14 @@ object-fit: contain;
 .second{
   position: relative;
   width: 90px;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   
 }
 
 
 .footer-images:hover{
   background-color: #E93656;
+  border-radius: 100%;
 }
 .phonenumber{
   width: 176px;
@@ -583,3 +584,119 @@ background-color: #FAFAFA;
 
 
 
+/* page four */
+
+.recomendations{
+  display: flex;
+}
+.rec-div{
+position: relative;
+}
+ .circle-image{
+  position: relative;
+} 
+.clip{
+  position: absolute
+}
+
+.rec-text{
+  width: 497px;
+  height: 78px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family:Roboto-light;
+  position: relative;
+  margin-top: 256px;
+  margin-bottom: 236px;
+  margin-left: 417px;
+  margin-right: 50px;
+
+}
+.circle-image{
+  margin-top: 211px;
+  margin-bottom: 189px;
+  margin-right: 50px;
+}
+.circle-dotted{
+  position: relative;
+width: 170px;
+height: 170px;
+
+}
+ .circle{
+  position: absolute;
+  width: 140px;
+height: 140px;
+background-color: #B97679;
+border-radius: 50%;
+margin:  15px;
+} 
+.quotes{
+  width: 39px;
+height: 26px;
+margin-top: 237px;
+margin-bottom: 38px;
+margin-right: 281px;
+margin-left: 50px;
+
+}
+.Graphic-Designer{
+  width: 107px;
+  height: 15px;
+  color: #E93656;
+  font-size: 13px;
+  font-family: Roboto-Regular;
+margin-bottom: 9px;
+margin-right: 281px;
+margin-left: 50px;
+
+}
+
+.Mau-Thomas{
+  width: 168px;
+  height: 37px;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-family: font-Glaciallnd-bold;
+  margin-bottom: 208px;
+margin-right: 281px;
+margin-left: 50px;
+}
+.button-1{
+  margin-top: 267px;
+  margin-right: 402px;
+  margin-bottom: 14px;
+  width: 13px;
+  height: 13px;
+  background-color: transparent;
+  border-style: solid;
+border-color:#FFFFFF;
+
+}
+.button-2{
+  margin-right: 402px;
+  margin-bottom: 14px;
+  width: 13px;
+height: 13px;
+background-color: transparent;
+border-style: solid;
+border-color:#FFFFFF;
+
+}
+.button-3{
+  margin-right: 402px;
+  margin-bottom: 237px;
+  width: 13px;
+height: 13px;
+background-color: transparent;
+border-style: solid;
+border-color:#FFFFFF;
+}
+
+
+
+  
+  
+  
+  
+  
