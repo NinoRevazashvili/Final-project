@@ -70,8 +70,9 @@ function myFunction() {
 
 
 
+function myFunction() {
+  document.getElementById("button-1").style.transitionProperty = "background-color";
 
-
-
+}
 
 

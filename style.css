@@ -616,6 +616,7 @@ position: relative;
   margin-top: 211px;
   margin-bottom: 189px;
   margin-right: 50px;
+  
 }
 .circle-dotted{
   position: relative;
@@ -673,6 +674,9 @@ margin-left: 50px;
 border-color:#FFFFFF;
 
 }
+.button-1:hover{
+  border-color: #E93656;
+}
 .button-2{
   margin-right: 402px;
   margin-bottom: 14px;
@@ -694,9 +698,296 @@ border-color:#FFFFFF;
 }
 
 
+@media screen and (max-width: 1120px) {
+ .rec-text{
+width: 100px;
+ }
+ 
 
+.circle-image{
+margin-top: 300px;
+}
+ .quotes{
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 250px;
+
+ }
+ .Graphic-Designer{
+  width: 50px;
+  margin-left: 5px;
+ }
+.Mau-Thomas{
+  width: 50px;
+  margin-left: 5px;
+}
+
+ }
+
+
+
+ /* page five */
+.latest-projects-box{
+display: flex;
+}
+ .list{
+  width: 240px;
+height: 401px;
+background-color: #15263E;
+padding-left: 59px;
+padding-top: 51px;
+padding-bottom: 59px;
+padding-right: 71;
+margin-left: 385px;
+margin-top: 155px;
+ }
+
+ .list-item{
+  font-size: 20px;
+  font-family: font-Glaciallnd-bold;
+  color: #FFFFFF;
+ 
+ }
+
+ .projects{
+  display: grid;
+  grid-template-columns: repeat(3, 300px); 
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 155px;
+
+
+ }
+  .project-image{
+  width: 300px;
+  height: 350px;
+}  
+
+.project-names{
+  font-size: 23px;
+  font-family:font-Glaciallnd-bold ;
+}
+.latest-projects-h1{
+  margin-left: 848px;
+  margin-right: 627px;
+  margin-bottom: 55px;
+  width: 845px;
+  height: 95px;
+  font-size: 70px;
+}
+@media screen and (max-width: 1120px) {
+  .latest-projects-box{
+    
+   display: block;
   
-  
-  
-  
-  
+  } 
+  .projects{
+    display: block;
+    margin-left: 390px;
+  }
+  .latest-projects-h1{
+    margin-left: 400px;
+    width: 100px;
+    font-size: 50px;
+  }
+}
+
+
+
+/* page 6 */
+.NEWS-EVENT{
+width: 111px;
+height: 17px;
+font-size: 13px;
+font-family: font-Glaciallnd-bold;
+color: #2ED279;
+margin-left: 921px;
+max-width: 908px;
+
+}
+.Latest-Articles-h1{
+width: 527px;
+height: 94px;
+font-size: 70px;
+color: #2E2E2E;
+font-family: font-Glaciallnd-bold;
+margin-left: 751px;
+margin-right: 762px;
+
+}
+
+
+.latest-articles{
+  display: flex;
+  margin-top: 200px;
+}
+.first-article{
+  background-color: #FAFAFA;
+  width: 800px;
+height: 590px;
+margin-left: 170px;
+}
+.blue-article{
+  width: 123px;
+height: 590px;
+background-color: #15263E;
+}
+
+.third-article{
+  width: 970px;
+height: 590px;
+background-color: #E1E0DC;
+}
+.designer-img{
+  padding:30px;
+  background-color: #FFFFFF;
+  border-width: 115px;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-top: 79px;
+  margin-bottom: 34px;
+}
+.IN-FREELANCING-COMPANY{
+font-size: 14px;
+font-family: Muli;
+color: #888888;
+margin-left: 30px;
+margin-bottom: 4px;
+}
+
+.articles-h3{
+  font-size: 40px;
+  font-family: font-Glaciallnd-bold;
+  color: #161616;
+  margin-left: 24px;
+  margin-bottom: 28px;
+}
+
+.article-p{
+  font-size: 16px;
+  font-family: Muli;
+  color: #494949;
+  margin-left: 28px;
+  margin-bottom: 139px;
+}
+
+.article-date{
+  width: 167px;
+  height: 40px;
+  font-size: 30px;
+  font-family: font-Glaciallnd-bold;
+  color: #E93656;
+  transform: rotate(270deg);
+  margin-top: 300px;
+}
+
+ .latest-articles-2{
+  display: flex;
+
+} 
+
+.first-article-2{
+  top: 5607px;
+  left: 970px;
+  width: 800px;
+  height: 590px;
+  background-color:#FAFAFA;
+}
+.designer-img-2{
+  margin-left: 227px;
+  margin-top: 100px;
+  width: 95px;
+height: 95px;
+}
+.IN-FREELANCING-COMPANY-2{
+margin-left: 226px;
+margin-top: 35px;
+font-size: 14px;
+font-family: Muli;
+color: #888888;
+}
+
+.Application-Designer{
+margin-left: 225px;
+margin-top: 6px;
+width: 416px;
+height: 51px;
+color: #161616;
+font-size: 38px;
+font-family: font-Glaciallnd-bold;
+}
+
+.article-p-2{
+  margin-left: 227px;
+  margin-top: 28px;
+  font-size: 16px;
+  font-family: Muli;
+  width: 569px;
+  height: 139px;
+  color: #494949;
+}
+
+.article-date-2{
+  width: 167px;
+  height: 40px;
+  font-size: 30px;
+  font-family: Jaapokki-Regular;
+  color: #E93656;
+  transform: rotate(270deg);
+  margin-top: 300px;
+}
+
+.latest-articles-3{
+  display: flex;
+}
+.first-article-3{
+  top: 6197px;
+left: 0px;
+width: 970px;
+height: 590px;
+background-color:#FAFAFA;
+}
+.designer-img-3{
+  padding:30px;
+  background-color: #FFFFFF;
+  border-width: 115px;
+  border-radius: 50%;
+  margin-left: 233px;
+  margin-top: 80px;
+  margin-bottom: 35px;
+
+}
+.IN-FREELANCING-COMPANY-3{
+  font-size: 14px;
+font-family: Muli;
+color: #888888;
+margin-left: 238px;
+margin-bottom: 6px;
+}
+.Personal-Adviser{
+  width: 475px;
+  height: 51px;
+  color: #161616;
+  font-size: 38px;
+  font-family: font-Glaciallnd-bold;
+  margin-left: 232px;
+  margin-bottom: 28px;
+}
+.article-p-3{
+  font-size: 16px;
+  font-family: Muli;
+  width: 569px;
+  height: 139px;
+  color: #494949;
+  margin-left: 236px;
+  margin-bottom: 137px;
+}
+.article-date-3{
+  width: 167px;
+  height: 40px;
+  font-size: 30px;
+  font-family: Jaapokki-Regular;
+  color: #E93656;
+  transform: rotate(270deg);
+  margin-top: 300px;
+}

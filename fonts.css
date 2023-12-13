@@ -30,3 +30,8 @@
     font-family:Roboto-Regular;
     src: url(./fonts/Roboto-Regular.ttf);
 }
+
+@font-face {
+    font-family:Jaapokki-Regular;
+    src: url(./fonts/Jaapokki-Regular.ttf);
+}
