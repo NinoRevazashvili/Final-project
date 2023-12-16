@@ -35,3 +35,11 @@
     font-family:Jaapokki-Regular;
     src: url(./fonts/Jaapokki-Regular.ttf);
 }
+@font-face {
+    font-family:Jaapokki-light;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Popins-extrabold;
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+}
