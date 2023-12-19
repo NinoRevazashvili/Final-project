@@ -25,22 +25,30 @@ function myFunction() {
 
 // Latest Projects
 
-function showParagraph(id){
+function showParagraph(id) {
   hideAllParagraph();
-  document.getElementById(id).style.visibility="visible";
+  document.getElementById(id).style.visibility = "visible";
 }
 
 
-function hideAllParagraph(){
+function hideAllParagraph() {
   let elements = document.getElementsByClassName('project-names');
   for (const element of elements) {
-    element.style.visibility="hidden";
+    element.style.visibility = "hidden";
   }
 }
 // page7 (Rosa Team)
 
 
-function showtexts(id){
-  document.getElementById(id).style.visibility="visible"
+function showtexts(id) {
+  document.getElementById(id).style.visibility = "visible"
 
 }
+
+function showdivs(id) {
+  document.getElementById(id).style.visibility = "visible"
+
+}
+
+
+
