@@ -60,7 +60,7 @@
 
   max-width: 1920px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -1103,7 +1103,11 @@ h1 {
   transform: rotate(270deg);
   margin-top: 300px;
 }
-
+.third-article-img{
+  width: 970px;
+  height: 590px;
+  object-fit:cover;
+}
 
 
 @media screen and (max-width: 1120px) {
