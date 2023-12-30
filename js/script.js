@@ -51,4 +51,25 @@ function showdivs(id) {
 }
 
 
+function showText(id) {
+  document.getElementById(id).style.visibility = "visible"
 
+}
+
+
+// page 3
+
+function showServiceDescription(id) {
+  document.getElementById(id).style.visibility = "visible";
+}
+
+function hideServiceDescription(id) {
+  document.getElementById(id).style.visibility = "hidden";
+}
+
+function showP(id) {
+  document.getElementById(id).style.visibility = "visible";
+}
+function hideP(id) {
+  document.getElementById(id).style.visibility = "hidden";
+}

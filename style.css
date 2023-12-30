@@ -56,9 +56,19 @@
   position: relative;
 }
 
+body {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: var(--white-97, #f7f7f8);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
 .box {
 
   max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
 
@@ -574,15 +584,71 @@ h1 {
 
 .individual-section {
 
+  /* width: 285px;
+  height: 360px;
+  background-color: #FAFAFA;  */
+
   width: 285px;
   height: 360px;
-  background-color: #FAFAFA;
-
+  background-color: #dbdbdb;
+  border: solid 1px #b9b6b6;
+  opacity: 0.97;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+position: relative;
 }
 
-.individual-section:hover {
-  background-color: #15263E;
+ #section-text{
+   visibility: hidden; 
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
 }
+ #section-text-2{
+  visibility: hidden;
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
+} 
+#section-text-3{
+  visibility: hidden;
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
+} 
+#section-text-4{
+  visibility: hidden;
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
+} 
+#section-text-5{
+  visibility: hidden;
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
+} 
+#section-text-6{
+  visibility: hidden;
+  background-color:#15263E;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  
+} 
 
 .design {
   padding-top: 133px;
@@ -592,12 +658,31 @@ h1 {
   color: #15263E;
 }
 
+
+ .individual-section:hover {
+  background-color: #15263E;
+  color: #ffffff;
+}  
+/* .services-txt {
+  font-family: Muli-Light;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  text-align: center;
+
+} */
+/* .individual-section:hover .hoverElement {
+  display: block;
+} */
 .Graphichs-Design {
-  padding-left: 70px;
+  /* font-family: GlacialIndifference-Bold;
+  font-size: 22px;
+  letter-spacing: 0.44px;
+  text-align: center; */
+   padding-left: 70px;
   padding-bottom: 121px;
   color: #222222;
   font-size: 22px;
-  font-family: font-Glaciallnd-bold;
+  font-family: font-Glaciallnd-bold; 
 }
 
 @media screen and (max-width: 1120px) {
@@ -842,12 +927,15 @@ h1 {
 .project-image {
   width: 300px;
   height: 350px;
+  object-fit: cover;
+  
 }
 
 
 .project-names {
   font-size: 23px;
   font-family: font-Glaciallnd-bold;
+  
 }
 
 .latest-projects-h1 {
@@ -1360,11 +1448,11 @@ h1 {
 
 }
 
-.Rosa-Team-blue {
-  background-color: #15263E;
+#Rosa-Team-blue {
   width: 110px;
   height: 110px;
   margin-top: 150px;
+  position: relative;
 
 }
 
@@ -1373,47 +1461,77 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 114px;
+margin-top: 169px;
+margin-bottom: 305px;
 }
-
-
-#clienttext {
-  visibility: hidden;
+.Rosa-Team-block{
   width: 110px;
-  background-color: #FFFFFF;
-  border-style: solid;
-  border-color: #E93656;
+  height: 110px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+position: relative; 
 }
+
+#clienttext{
+  visibility: hidden;
+  width: 230px;
+  height: 190px;
+  background-color: #FFFFFF;
+  border-style: solid ;
+  border-width: 4px;
+  border-color: #E93656;
+  position: absolute ;
+margin-top: 200px;
+}
+
+
 
 #clienttext2 {
   visibility: hidden;
-  width: 110px;
+  width: 230px;
+  height: 190px;
   background-color: #FFFFFF;
   border-style: solid;
   border-color: #E93656;
+  position: absolute ;
+  margin-top: 200px;
 }
 
 #clienttext3 {
   visibility: hidden;
-  width: 110px;
+  width: 230px;
+  height: 190px;
   background-color: #FFFFFF;
   border-style: solid;
   border-color: #E93656;
+  position: absolute ;
+  margin-top: 200px;
 }
 
 #clienttext4 {
   visibility: hidden;
-  width: 110px;
+  width: 230px;
+  height: 190px;
   background-color: #FFFFFF;
   border-style: solid;
   border-color: #E93656;
+  position: absolute ;
+  margin-top: 200px;
 }
+
 
 #clienttext5 {
   visibility: hidden;
-  width: 110px;
+  width: 230px;
+  height: 190px;
   background-color: #FFFFFF;
   border-style: solid;
   border-color: #E93656;
+  position: absolute ;
+  margin-top: 200px;
 }
 
 @media screen and (max-width: 1120px) {
